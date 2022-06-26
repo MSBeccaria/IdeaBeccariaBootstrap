@@ -388,9 +388,14 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    width: 40%;
+    width: 100%;
     height: auto;
     flex-direction: column;
+    padding: 0;
+    }
+
+    .carteleraItem{
+        width: 100%;
     }
 
     #footer{
