@@ -102,7 +102,22 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
 /* APLICO MEDIAQUERIE EN INDEX PARA VISTA MOBILE*/
 
+
+
 @media(max-width:768px){
+
+
+    .gridConteinerIndex{
+        display:grid;
+        grid-template-areas: "header"
+                              "main"
+                              "footer";
+        grid-template-rows: 200px 600px 50px;
+        gap: 5px;  
+        align-items: center;                    
+                              
+    }
+
     #header{
         display:flex;
     }
@@ -122,7 +137,8 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         flex-flow: column wrap;
         justify-content:center;
         align-items: flex-start;
-        font-size: 5vh;
+        align-content: flex-start;
+        font-size: 10vh;
         color: beige;
         font-weight: bold;
     }
@@ -130,7 +146,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     .MainInicio{
         background-image: url(./assets/cuerdasInicio.jpg);
         background-repeat: no-repeat;
-        background-size:cover;
+        background-size:100%;
         background-position:center;
     }    
         
@@ -209,7 +225,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         grid-template-areas: "header"
                               "main"
                               "footer";
-        grid-template-rows: 200px 800px 50px;
+        grid-template-rows: 200px 1200px 50px;
         gap: 5px;  
         align-items: center; 
     }
@@ -217,17 +233,15 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
 
     #mainNosotras{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-rows:  200px 100px 200px 100px;
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
     }
 
     #mainNosotras .mainNosotras__foto1,
     #mainNosotras .mainNosotras__foto2{
-         width:30%;
+         width:80%;
     } 
 
     #footer{
