@@ -307,8 +307,15 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
                               "footer";
         grid-template-rows: 200px 800px 50px;
         gap: 5px;  
-        align-items: center; 
-    }    
+        align-items: center;
+        padding-left: 5px; 
+        padding-right: 5px;
+    }
+    
+    #mainMusica{
+        width: 100%;
+    }
+  
 
     #footer{
         display: flex;
