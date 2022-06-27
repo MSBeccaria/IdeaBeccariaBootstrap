@@ -16,7 +16,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     grid-template-areas: "header"
                           "main"
                           "footer";
-    grid-template-rows: 200px 600px 50px;
+    grid-template-rows: 200px 1000px 50px;
     gap: 5px;  
     align-items: center;                    
                           
@@ -25,7 +25,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
 #header{
     background-color: white;
-    height: 100 px;
+    height: 150 px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,14 +62,14 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     
 }
 
-.MainInicio{
+/*.MainInicio{
     background-image: url(./assets/cuerdasInicio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-left: 90px;
     padding-right: 90px;
-}
+}*/
 
 /* transformacion*/
 
@@ -83,18 +83,18 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 }
 
 .MainInicio .MainInicio__texto{
-    min-height: 500px;
+    min-height: 200px;
     display: flex;
     flex-flow: column wrap;
     justify-content:center;
     align-items:flex-start;
     padding-left: 5px;
     font-size: 80px;
-    color: white;
+    color:black;
     font-weight: bold;
     animation-name: aparecer;
-    animation-duration: 5s;
-    animation-iteration-count:initial;
+    animation-duration: 7s;
+    animation-iteration-count:infinite
 
 }
 
@@ -136,10 +136,10 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         display: flex;
         flex-flow: column wrap;
         justify-content:center;
-        align-items: flex-start;
-        align-content: flex-start;
-        font-size: 6vh;
-        color: beige;
+        align-items: center;
+        align-content: center;
+        font-size: 10vh;
+        color:black;
         font-weight: bold;
     }
 
