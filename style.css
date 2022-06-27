@@ -79,9 +79,9 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     display: flex;
     flex-flow: column wrap;
     justify-content:center;
-    align-items:flex-start;
+    align-items:center;
     padding-left: 5px;
-    font-size: 80px;
+    font-size: 70px;
     color:black;
     font-weight: bold;
     animation-name: aparecer;
