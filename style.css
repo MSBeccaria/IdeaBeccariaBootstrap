@@ -62,14 +62,6 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     
 }
 
-/*.MainInicio{
-    background-image: url(./assets/cuerdasInicio.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-left: 90px;
-    padding-right: 90px;
-}*/
 
 /* transformacion*/
 
@@ -143,13 +135,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         font-weight: bold;
     }
 
-    .MainInicio{
-        background-image: url(./assets/cuerdasInicio.jpg);
-        background-repeat: no-repeat;
-        background-size:100%;
-        background-position:center;
-    }    
-        
+ 
 
     #footer{
        display: flex;
