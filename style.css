@@ -29,14 +29,17 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
-    margin: 20px;
+    
 }
 
 #header .header__logo .header__menu{
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#header .header__logo{
+    padding-left: 10px;
 }
 
 #header .header__menu ul{
