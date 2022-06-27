@@ -138,7 +138,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         justify-content:center;
         align-items: flex-start;
         align-content: flex-start;
-        font-size: 10vh;
+        font-size: 6vh;
         color: beige;
         font-weight: bold;
     }
@@ -274,7 +274,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         grid-column-gap: 5px;
         grid-row-gap: 20px;
         align-items: center;
-        padding-left: 90px;
+        
 
 }
 
