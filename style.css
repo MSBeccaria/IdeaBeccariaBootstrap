@@ -22,47 +22,21 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
                           
 }
 
+/*cambios al navbar bootstrap*/
 
-#header{
-    background-color: white;
-    height: 150 px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.bg-color-propio{
+    background-color:white;
 }
 
-#header .header__logo .header__menu{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+.nav-item a{
+    font-size:xx-large;
+    color:black;
 }
 
-#header .header__logo{
-    padding-left: 10px;
-}
-
-#header .header__menu ul{
-    display: flex;
-    list-style: none;
-    justify-content:flex-end;
-    margin: 0 10px;
-    padding: 10px;
-    
-}
-
-#header .header__menu ul li a{
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    margin: 30px;
-    font-size: larger;
-}
-
-#header .header__menu ul li a:hover{
+.navbar-nav .nav-item a:hover{
     color:#2C8AA0;
     font-weight: bold;
-    
+
 }
 
 
@@ -93,6 +67,23 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
 }
 
+/*FOOTER---------------------------------------------------------------*/
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#CE5C16;
+    height: 80px;
+    margin top: 10px;
+
+}
+
+#footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
 
 
 /* APLICO MEDIAQUERIE EN INDEX PARA VISTA MOBILE*/
@@ -112,7 +103,6 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         align-items: center;                    
                               
     }
-
     #header{
         display:flex;
     }
@@ -124,7 +114,8 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         justify-content:right;
         align-items: flex-end;
         align-content: flex-end;
-    }
+        margin-bottom: 10px;
+    
 
 
      .MainInicio .MainInicio__texto{
@@ -465,19 +456,3 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
 
 
-/*FOOTER---------------------------------------------------------------*/
-#footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#CE5C16;
-    height: 80px;
-    margin top: 10px;
-
-}
-
-#footer a{
-    margin-left: 10px;
-    margin-right: 10px;
-    
-}
