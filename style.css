@@ -240,20 +240,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
 /*APLICO MEDIAQUERIES EN MUSICA PARA VISTA MOBILE*/
 @media(max-width:768px){
-    #header{
-        display:flex;
-    }
-
-    #header .header__menu ul{
-        display: flex;
-        flex-direction:column;
-        flex-wrap: nowrap;
-        justify-content:right;
-        align-items: flex-end;
-        align-content: flex-end;
-        margin-bottom: 10px;
-    }
-
+   
     .gridConteinerMusica{
         display:grid;
         grid-template-areas: "header"
